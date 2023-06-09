@@ -1,0 +1,53 @@
+/* Inheritance */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+/* Select multiply elements */
+header, footer {
+background-color: #40805C;
+}
+
+
+/* Class selector */
+.site-title {
+color: beige;
+}
+
+
+/* ID selector */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+  }
+
+
+  /* Replace bullets with squares */
+ul {
+    list-style-type: square;
+  }
+
+
+  /* Using nth-child selector */
+  main ul li:nth-child(odd) {
+    background-color: #F5BEFD;
+  }
+
+
+  /* Styling the navigation */
+nav ul {
+    padding: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    background-color: #93FC7E;
+    border: 1px solid black;
+  }
+
+
+  nav a:hover,
+  nav a:focus {
+  background-color: #9951C9;
+}
